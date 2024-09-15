@@ -46,7 +46,7 @@ const getBMIcategory = (bmi) => {
   } else if (bmi >= 18.5 && bmi < 25) {
     return 'normal weight';
   } else if (bmi >= 25 && bmi < 30) {
-    return 'overweight'.style.color = 'red';
+    return 'overweight';
 
   } else {
     return 'obesity';
